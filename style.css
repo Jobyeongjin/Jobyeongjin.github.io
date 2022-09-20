@@ -1,0 +1,41 @@
+body {
+  background-color: ivory;
+}
+
+h1 {
+  color: skyblue;
+}
+
+button {
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: skyblue;
+  color: #fff;
+}
+
+.lotto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball-container {
+  display: flex;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  margin: 10px 5px;
+  background-color: red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
